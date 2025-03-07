@@ -304,6 +304,7 @@ button:hover {
 }
 
 .profile {
+  position: absolute;
   top: 10%;
   left: 10%;
 }
