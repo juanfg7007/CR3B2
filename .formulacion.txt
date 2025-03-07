@@ -1,0 +1,11 @@
+Cr3B2 / boruro de cromo / CR3B2
+
+python -m http.server 8000
+
+http://localhost:8000
+
+http://127.0.0.1:3000/
+
+Portafolio
+
+CR3B2
