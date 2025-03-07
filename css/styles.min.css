@@ -13,7 +13,7 @@ body {
 }
 
 .world-map {
-  background: url("/images/bg-1.jpg");
+  background: url("images/bg-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -93,7 +93,7 @@ progress::-webkit-progress-value {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   width: 30%;
   max-width: 80%;
-  background: url("/images/modal-bg.jpg");
+  background: url("images/modal-bg.jpg");
   color: #000;
   text-transform: uppercase;
 }
