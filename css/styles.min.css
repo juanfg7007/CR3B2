@@ -306,7 +306,7 @@ button:hover {
   vertical-align: top;
 }
 
-.profile {
+.perfil {
   position: relative;
   top: 10%;
   left: 10%;
@@ -339,6 +339,11 @@ button:hover {
 }
 
 .formación {
+  top: 50%;
+  left: 50%;
+}
+
+.proyecto {
   top: 50%;
   left: 50%;
 }
