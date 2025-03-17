@@ -75,3 +75,426 @@ commands: [
         text: "CARGANDO  . . .",
         typing: true,
       },
+
+
+      var cards = [
+  {
+    title: "Perfil",
+    width: 280,
+    html: `<div class="perfil-image"><img src="${imagePath}/selfie.jpg" alt="Juan F. González Santamaría"></div>
+		<div class="perfil-info">
+	<table>
+		<tbody>
+			<tr>
+				<td>Nombre</td>
+				<td>Juan Francisco</td>
+			</tr>
+			<tr>
+				<td>Apellidos</td>
+				<td>González Santamaría</td>
+			</tr>
+			<tr>
+				<td>Perfil Laboral</td>
+				<td>
+					<ul style="list-style-type: disc; margin: 0; padding-left: 20px;">
+						<li>Consultor y Auditor de Calidad</li>
+						<li>Formador y Docente</li>
+						<li>Desarrollador y Programador Web</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>Fecha de Nacimiento</td>
+				<td>7 de enero de 1982</td>
+			</tr>
+			<tr>
+				<td>Lugar de Nacimiento</td>
+				<td>Madrid, España</td>
+			</tr>
+			<tr>
+				<td>Dirección</td>
+				<td>
+        	<a href="https://www.google.com/maps?q=40.40636707180689,-3.7337309865081436" target="_blank">
+					Calle Turaco 5<br>28011, Madrid
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td>Email</td>
+				<td><a href="mailto:juanfg7007@gmail.com" style="text-transform: lowercase;">juanfg7007@gmail.com</a></td>
+			</tr>
+			<tr>
+				<td>Teléfono</td>
+				<td><a href="tel:+34670894883">+34 670 894 883</a></td>
+			</tr>
+			<tr>
+				<td>Contacto</td>
+				<td>
+					<a href="mailto:juanfg7007@gmail.com"><i class="fas fa-envelope"></i></a>&nbsp;&nbsp;
+          <a href="https://wa.me/34670894883"><i class="fab fa-whatsapp"></i></a>&nbsp;&nbsp;
+          <a href="tel:+34670894883"><i class="fas fa-phone"></i></a>&nbsp;&nbsp;
+					<a href="https://juanfg7007.github.io/CR3B2/" target="_blank"><i class="fab fa-github"></i></a>&nbsp;&nbsp;
+				</td>
+			</tr>
+      <tr>
+				<td>Resumen</td>
+				<td><a href="${resumePath}/CV_Juan_F_Gonzalez_Santamaria_2025.pdf" download>Descargar C.V.</a></td>
+			</tr>
+		</tbody>
+	</table>
+		</div>`,
+  },
+  {
+    title: "Proyectos",
+    width: 550,
+    html: `
+    <table>
+      <tbody>
+        <tr>
+          <td><a target="_blank" href="#">BK2CO33</a></td>
+          <td>Aplicación web para usuarios de una entidad bancaria. Podrás gestionar y llevar al día todas tus cuentas y finanzas, planificar los gastos y controlar tus ahorros.</td>
+          <td style="white-space: nowrap; width: 100px; ">
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px;">
+              <img src="${imagePath}/skills/python.svg" alt="Python" width="24" height="24">
+              <img src="${imagePath}/skills/django.svg" alt="Django" width="24" height="24">
+              <img src="${imagePath}/skills/postgresql.svg" alt="PostgreSQL" width="24" height="24">
+              <img src="${imagePath}/skills/html.svg" alt="HTML" width="24" height="24">
+              <img src="${imagePath}/skills/css.svg" alt="CSS" width="24" height="24">
+              <img src="${imagePath}/skills/javascript.svg" alt="JavaScript" width="24" height="24">
+              <img src="${imagePath}/skills/scss.svg" alt="SCSS" width="24" height="24">
+            </div>
+          </td>
+          <td style="width: 30px; text-align: center;">
+            <a target="_blank" href="#">
+              <i class="fa fa-external-link-alt"></i>
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td><a target="_blank" href="https://juanfg7007helpdesk.pythonanywhere.com/">HF2CO33</a></td>
+          <td>Aplicación web de helpdesk y ticketing. Sistema flexible, funcional y eficiente de administración y seguimiento de incidencias de soporte técnico.</td>
+          <td style="white-space: nowrap; width: 100px; ">
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px;">
+              <img src="${imagePath}/skills/python.svg" alt="Python" width="24" height="24">
+              <img src="${imagePath}/skills/django.svg" alt="Django" width="24" height="24">
+              <img src="${imagePath}/skills/sqlite.svg" alt="SQLite" width="24" height="24">
+              <img src="${imagePath}/skills/html.svg" alt="HTML" width="24" height="24">
+              <img src="${imagePath}/skills/css.svg" alt="CSS" width="24" height="24">
+              <img src="${imagePath}/skills/javascript.svg" alt="JavaScript" width="24" height="24">
+              <img src="${imagePath}/skills/scss.svg" alt="SCSS" width="24" height="24">
+              <img src="${imagePath}/skills/bootstrap.svg" alt="Bootstrap" width="24" height="24">
+              <img src="${imagePath}/skills/jquery.svg" alt="JQuery" width="24" height="24">
+            </div>
+          </td>
+          <td style="width: 30px; text-align: center;">
+            <a target="_blank" href="https://juanfg7007helpdesk.pythonanywhere.com/">
+              <i class="fa fa-external-link-alt"></i>
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td><a target="_blank" href="#">PR3SBO34</a></td>
+          <td>Sistema de gestión farmaceutica es una plataforma web diseñada para optimizar las tareas administrativas y operativas diarias. También permite controlar inventarios, medicamentos, prescripciones y pacientes.</td>
+          <td style="white-space: nowrap; width: 100px; ">
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px;">
+              <img src="${imagePath}/skills/python.svg" alt="Python" width="24" height="24">
+              <img src="${imagePath}/skills/django.svg" alt="Django" width="24" height="24">
+              <img src="${imagePath}/skills/sqlite.svg" alt="SQLite" width="24" height="24">
+              <img src="${imagePath}/skills/html.svg" alt="HTML" width="24" height="24">
+              <img src="${imagePath}/skills/css.svg" alt="CSS" width="24" height="24">
+              <img src="${imagePath}/skills/javascript.svg" alt="JavaScript" width="24" height="24">
+              <img src="${imagePath}/skills/scss.svg" alt="SCSS" width="24" height="24">
+              <img src="${imagePath}/skills/nextJS.svg" alt="NextJS" width="24" height="24">
+              <img src="${imagePath}/skills/react.svg" alt="React" width="24" height="24">
+            </div>
+          </td>
+          <td style="width: 30px; text-align: center;">
+            <a target="_blank" href="#">
+              <i class="fa fa-external-link-alt"></i>
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td><a target="_blank" href="#">RH3ASO44</a></td>
+          <td>Sistema de Gestión Integral de Recursos Humanos de la empresa, centraliza y optimiza todas las tareas: gestión de empleados, nóminas y asistencia, selección y contratación de personal, ofertas laborales y evaluaciones de desempeño.</td>
+          <td style="white-space: nowrap; width: 100px; ">
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px;">
+              <img src="${imagePath}/skills/python.svg" alt="Python" width="24" height="24">
+              <img src="${imagePath}/skills/django.svg" alt="Django" width="24" height="24">
+              <img src="${imagePath}/skills/postgresql.svg" alt="Postgresql" width="24" height="24">
+              <img src="${imagePath}/skills/html.svg" alt="HTML" width="24" height="24">
+              <img src="${imagePath}/skills/css.svg" alt="CSS" width="24" height="24">
+              <img src="${imagePath}/skills/javascript.svg" alt="JavaScript" width="24" height="24">
+              <img src="${imagePath}/skills/scss.svg" alt="SCSS" width="24" height="24">
+              <img src="${imagePath}/skills/selenium.svg" alt="Selenium" width="24" height="24">
+              <img src="${imagePath}/skills/opencv.svg" alt="OpenCV" width="24" height="24">
+            </div>
+          </td>
+          <td style="width: 30px; text-align: center;">
+            <a target="_blank" href="#">
+              <i class="fa fa-external-link-alt"></i>
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td><a target="_blank" href="#">TA2O5</a></td>
+          <td>Sistema de Gestión Integral de Recursos Humanos de la empresa, centraliza y optimiza todas las tareas: gestión de empleados, nóminas y asistencia, selección y contratación de personal, ofertas laborales y evaluaciones de desempeño.</td>
+          <td style="white-space: nowrap; width: 100px; ">
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px;">
+              <img src="${imagePath}/skills/python.svg" alt="Python" width="24" height="24">
+              <img src="${imagePath}/skills/django.svg" alt="Django" width="24" height="24">
+              <img src="${imagePath}/skills/postgresql.svg" alt="Postgresql" width="24" height="24">
+              <img src="${imagePath}/skills/html.svg" alt="HTML" width="24" height="24">
+              <img src="${imagePath}/skills/css.svg" alt="CSS" width="24" height="24">
+              <img src="${imagePath}/skills/javascript.svg" alt="JavaScript" width="24" height="24">
+              <img src="${imagePath}/skills/scss.svg" alt="SCSS" width="24" height="24">
+              <img src="${imagePath}/skills/selenium.svg" alt="Selenium" width="24" height="24">
+              <img src="${imagePath}/skills/opencv.svg" alt="OpenCV" width="24" height="24">
+            </div>
+          </td>
+          <td style="width: 30px; text-align: center;">
+            <a target="_blank" href="#">
+              <i class="fa fa-external-link-alt"></i>
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td><a target="_blank" href="#">H3VO4</a></td>
+          <td>Sistema de Gestión Integral de Recursos Humanos de la empresa, centraliza y optimiza todas las tareas: gestión de empleados, nóminas y asistencia, selección y contratación de personal, ofertas laborales y evaluaciones de desempeño.</td>
+          <td style="white-space: nowrap; width: 100px; ">
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px;">
+              <img src="${imagePath}/skills/python.svg" alt="Python" width="24" height="24">
+              <img src="${imagePath}/skills/django.svg" alt="Django" width="24" height="24">
+              <img src="${imagePath}/skills/postgresql.svg" alt="Postgresql" width="24" height="24">
+              <img src="${imagePath}/skills/html.svg" alt="HTML" width="24" height="24">
+              <img src="${imagePath}/skills/css.svg" alt="CSS" width="24" height="24">
+              <img src="${imagePath}/skills/javascript.svg" alt="JavaScript" width="24" height="24">
+              <img src="${imagePath}/skills/scss.svg" alt="SCSS" width="24" height="24">
+              <img src="${imagePath}/skills/selenium.svg" alt="Selenium" width="24" height="24">
+              <img src="${imagePath}/skills/opencv.svg" alt="OpenCV" width="24" height="24">
+            </div>
+          </td>
+          <td style="width: 30px; text-align: center;">
+            <a target="_blank" href="#">
+              <i class="fa fa-external-link-alt"></i>
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td><a target="_blank" href="#">V3PO35</a></td>
+          <td>Sistema de Gestión Integral de Recursos Humanos de la empresa, centraliza y optimiza todas las tareas: gestión de empleados, nóminas y asistencia, selección y contratación de personal, ofertas laborales y evaluaciones de desempeño.</td>
+          <td style="white-space: nowrap; width: 100px; ">
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px;">
+              <img src="${imagePath}/skills/python.svg" alt="Python" width="24" height="24">
+              <img src="${imagePath}/skills/django.svg" alt="Django" width="24" height="24">
+              <img src="${imagePath}/skills/postgresql.svg" alt="Postgresql" width="24" height="24">
+              <img src="${imagePath}/skills/html.svg" alt="HTML" width="24" height="24">
+              <img src="${imagePath}/skills/css.svg" alt="CSS" width="24" height="24">
+              <img src="${imagePath}/skills/javascript.svg" alt="JavaScript" width="24" height="24">
+              <img src="${imagePath}/skills/scss.svg" alt="SCSS" width="24" height="24">
+              <img src="${imagePath}/skills/selenium.svg" alt="Selenium" width="24" height="24">
+              <img src="${imagePath}/skills/opencv.svg" alt="OpenCV" width="24" height="24">
+            </div>
+          </td>
+          <td style="width: 30px; text-align: center;">
+            <a target="_blank" href="#">
+              <i class="fa fa-external-link-alt"></i>
+            </a>
+          </td>
+        </tr>
+      </tbody>
+    </table>`,
+  },
+  {
+    title: "Face Capture",
+    width: 380,
+    html: `<div class="face-capture-image">
+      <img id="faceCaptureImg" src="${imagePath}/proyects/face-capture01.jpg" alt="Proyecto y Software de JFGS"> 
+			<div class="face-capture-square"></div>
+		</div>`,
+  },
+  // {
+  //   title: "Location",
+  //   width: 200,
+  //   html: `
+	// 		<div class="finland-map-wrap">
+	// 			<img class="finland-map" src="${imagePath}/finland-map.svg" alt="Finland Map">
+	// 			<div class="beacon-wrap">
+	// 				<div class="beacon-center"></div>
+	// 				<div class="beacon"></div>
+	// 			</div>
+	// 		</div>
+	// 	`,
+  // },
+  // {
+  //   title: "Known Associates",
+  //   width: 240,
+  //   html: `<div class="profile-image"><img src="${imagePath}/my-cat.jpg" width="100%" alt="Tom"></div>
+	// 	<div class="profile-info">
+	// 		<table>
+	// 			<tbody>
+	// 				<tr><td>Name</td><td>Tomas</td></tr>
+	// 				<tr><td>Alias</td><td>Tom</td></tr>
+	// 				<tr><td>Profession</td><td>Friend</td></tr>
+	// 				<tr><td>Sex</td><td>Male</td></tr>
+	// 				<tr><td>Age</td><td>2</td></tr>
+	// 			</tbody>
+	// 		</table>
+	// 	</div>`,
+  // },
+  // {
+  //   title: "Missions",
+  //   width: 560,
+  //   html: `
+	// 		<table>
+	// 			<tbody>
+	// 				<tr><td><a target="_blank" href="https://www.arter.fi/">Arter Oy</a></td><td>Helsinki, Finland</td><td>2013 - 2021</td><td><a href="#" onclick="modal(event)" data-title="Arter Oy">Full Report</a></td></tr>
+	// 				<tr><td><a target="_blank" href="https://oivan.com/">Oivan</a></td><td>Helsingfors, Finland</td><td>2011 - 2012</td><td><a href="#" onclick="modal(event)" data-title="Oivan">Full Report</a></td></tr>
+	// 				<tr><td>Working from home</td><td>Remote</td><td>2012 - 2013</td><td><a href="#" onclick="modal(event)" data-title="Working from home">Full Report</a></td></tr>
+	// 			</tbody>
+	// 		</table>
+	// 	`,
+  // },
+  {
+    title: "Formación",
+    width: 820,
+    html: `<table>
+      <tbody>
+        <tr>
+          <td>Certificado Profesional</td>
+          <td>Sistemas de Gestión de la Información</td>
+          <td>IFCD0211</td>
+          <td style="white-space: nowrap;">2023 - 2024</td>
+          <td>Coremsa Formación</td>
+        </tr>
+				<tr>
+          <td>Certificado Profesional</td>
+          <td>Docencia de la Formación Profesional para el Empleo</td>
+          <td>SSCE0110</td>
+          <td style="white-space: nowrap;">2023 - 2024</td>
+          <td>Grupo Conforsa</td>
+        </tr>
+        <tr>
+          <td>Licenciatura</td>
+          <td>Publicidad y Relaciones Públicas</td>
+          <td></td>
+          <td style="white-space: nowrap;">2001 - 2005</td>
+          <td>Universidad Rey Juan Carlos</td>
+        </tr>
+			</tbody>
+		</table>`,
+  },
+  // {
+  //   title: "Languages",
+  //   width: 250,
+  //   html: `<table>
+	// 		<tbody>
+	// 			<tr><td width="50%">HTML</td><td>Python</td></tr>
+	// 			<tr><td width="50%">CSS</td><td>PHP</td></tr>
+  //       <tr><td>JavaScript</td><td>Go</td></tr>
+	// 			<tr><td>TypeScript</td><td>Swift</td></tr>
+	// 			<tr><td>C</td><td>Kotlin</td></tr>
+	// 			<tr><td>C++</td><td>Java</td></tr>
+	// 			<tr><td>SQL</td><td>Dart</td></tr>
+	// 		</tbody>
+	// 	</table>`,
+  // },
+  {
+    title: "Experiencia",
+    width: 720,
+    html: `<table>
+			<tbody>
+        <tr>
+          <td>Servinform</td>
+          <td>Responsable Calidad y Formación</td>
+          <td>oct '20 - dic '24</td>
+          <td><a href="#" onclick="modal(event)" data-title="Servinform">+ info</a></td>
+        </tr>
+        <tr>
+          <td>Redsys (Help Desk)</td>
+          <td>Supervisor Calidad y Formación</td>
+          <td>mar '19 - feb '20</td>
+          <td><a href="#" onclick="modal(event)" data-title="Redsys">+ info</a></td>
+        </tr>
+        <tr>
+          <td>Ilunion Sociosanitario</td>
+          <td>Supervisor Call-Center: Teleasistencia</td>
+          <td>feb '18 - ene '19</td>
+          <td><a href="#" onclick="modal(event)" data-title="Ilunion Sociosanitario">+ info</a></td>
+        </tr>
+        <tr>
+          <td>OpenBank</td>
+          <td>Supervisor Call-Center: Hipotecas</td>
+          <td>ene '16 - ene '18</td>
+          <td><a href="#" onclick="modal(event)" data-title="Openbank">+ info</a></td>
+        </tr>
+        <tr>
+          <td>JGS Diseño & Consulting</td>
+          <td>Socio Fundador</td>
+          <td>ene '10 - dic '15</td>
+          <td><a href="#" onclick="modal(event)" data-title="JGS Diseño Consulting">+ info</a></td>
+        </tr>
+        <tr>
+          <td rowspan="3">Panel & Perfil</td>
+          <td>Responsable de Publicidad</td>
+          <td>abr '07 - dic '09</td>
+          <td><a href="#" onclick="modal(event)" data-title="Panel Perfil 3">+ info</a></td>
+        </tr>
+        <tr>
+          <td>Responsable de Proyectos</td>
+          <td>ene '06 - mar '07</td>
+          <td><a href="#" onclick="modal(event)" data-title="Panel Perfil 2">+ info</a></td>
+        </tr>
+        <tr>
+          <td>Ejecutivo de Cuentas</td>
+          <td>sep '04 - dic '05</td>
+          <td><a href="#" onclick="modal(event)" data-title="Panel Perfil 1">+ info</a></td>
+        </tr>
+        <tr>
+          <td rowspan="3">IdeA Telemarketing</td>
+          <td>Supervisor Servicios Att. Cliente</td>
+          <td>nov '02 - ago '04</td>
+          <td><a href="#" onclick="modal(event)" data-title="IdeA Telemarketing 2">+ info</a></td>
+        </tr>
+        <tr>
+          <td>Formador RR.HH.</td>
+          <td>oct '00 - oct '02</td>
+          <td><a href="#" onclick="modal(event)" data-title="IdeA Telemarketing 1">+ info</a></td>
+        </tr>
+
+		  </tbody>
+		  </table>`,
+  },
+  // {
+  //   title: "Skillset",
+  //   width: 250,
+  //   html: `<table>
+	// 		<tbody>
+  //       <tr><td>Web Development</td></tr>
+  //       <tr><td>Mobile App Development</td></tr>
+  //       <tr><td>SaaS Development</td></tr>
+  //       <tr><td>Blockchain</td></tr>
+  //       <tr><td>API Creation / Integration</td></tr>
+  //       <tr><td>Project Management</td></tr>
+  //       <tr><td>UX/UI Design</td></tr>
+	// 			<tr><td>SQL / NoSQL Database</td></tr>
+  //       <tr><td>DevOps - Git / Jenkins / Docker</td></tr>
+  //       <tr><td>Teamwork</td></tr>
+  //       <tr><td>Communication</td></tr>
+	// 			<tr><td>Problem-Solving</td></tr>
+  //       <tr><td>Code Quality</td></tr>
+  //       <tr><td>Testing / Automation</td></tr>
+	// 		</tbody>
+	// 	</table>`,
+  // },
+  {
+    title: "Audio Feed",
+    width: 290,
+    html: `<div class="audio-feed-container"></div>`,
+  },
+  {
+    title: "Server Log",
+    width: 270,
+    html: `<div class="server-log-container"></div>`,
+  },
+];
