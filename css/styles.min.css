@@ -96,6 +96,9 @@ progress::-webkit-progress-value {
   background: url("../images/modal-bg.jpg");
   color: #000;
   text-transform: uppercase;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .modal .modal-header {
@@ -130,7 +133,7 @@ progress::-webkit-progress-value {
   color: red;
   position: absolute;
   transform: rotate(-30deg);
-  opacity: 0.07;
+  opacity: 0.06;
   display: block;
   top: 100px;
   right: 50px;

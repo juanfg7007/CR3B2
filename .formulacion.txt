@@ -9,3 +9,69 @@ http://127.0.0.1:3000/
 Portafolio
 
 CR3B2
+
+commands: [
+      {
+        text: 'PROCESANDO PORTAFOLIO',
+        typing: true,
+      },
+      {
+        text: '  ',
+        typing: false,
+      },
+      {
+        text: 'RECIBIENDO DATOS',
+        typing: true,
+      },
+      {
+        text: '  ',
+        typing: false,
+      },
+      {
+        text: 'NOMBRE: JUAN F.',
+        typing: true,
+      },
+      {
+        text: 'APELLIDOS: GONZÁLEZ SANTAMARÍA',
+        typing: true,
+      },
+      {
+        text: '  ',
+        typing: false,
+      },
+      {
+        text: "CARGANDO  . . .",
+        typing: true,
+      },
+
+    ],
+
+
+      {
+        text: '  ',
+        typing: false,
+      },
+      {
+        text: 'RECIBIENDO DATOS',
+        typing: true,
+      },
+      {
+        text: '  ',
+        typing: false,
+      },
+      {
+        text: 'NOMBRE: JUAN F.',
+        typing: true,
+      },
+      {
+        text: 'APELLIDOS: GONZÁLEZ SANTAMARÍA',
+        typing: true,
+      },
+      {
+        text: '  ',
+        typing: false,
+      },
+      {
+        text: "CARGANDO  . . .",
+        typing: true,
+      },
