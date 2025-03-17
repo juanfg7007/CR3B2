@@ -308,13 +308,10 @@ button:hover {
 
 .perfil {
   position: relative;
-  top: 10%;
-  left: 10%;
 }
 
 .face-capture {
-  top: 5%;
-  left: 50%;
+  position: relative;
 }
 
 .face-capture-image {
@@ -339,33 +336,27 @@ button:hover {
 }
 
 .formación {
-  top: 50%;
-  left: 50%;
+  position: relative;
 }
 
 .proyecto {
-  top: 50%;
-  left: 50%;
+  position: relative;
 }
 
 .languages {
-  top: 70%;
-  left: 80%;
+  position: relative;
 }
 
 .experiencia {
-  top: 70%;
-  left: 80%;
+  position: relative;
 }
 
 .skillset {
-  top: 60%;
-  left: 50%;
+  position: relative;
 }
 
 .location {
-  top: 50%;
-  left: 50%;
+  position: relative;
 }
 
 .finland-map-wrap {
@@ -408,17 +399,16 @@ button:hover {
 }
 
 .audio-feed {
-  left: 2%;
-  top: 70%;
+  position: relative;
 }
 
 .audio-feed-container {
+  position: relative;
   height: 100px;
 }
 
 .server-log {
-  top: 50%;
-  left: 20%;
+  position: relative;
 }
 
 .server-log .card-body {
@@ -427,7 +417,7 @@ button:hover {
 }
 
 .server-log-container {
-  padding: 5px;
+  position: relative;
 }
 
 @keyframes ping {
