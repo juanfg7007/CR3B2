@@ -38,7 +38,7 @@ CR3B2
         typing: false,
       },
       {
-        text: "CARGANDO  . . .",
+        text: "CARGANDO DATOS  . . .",
         typing: true,
       },
 
